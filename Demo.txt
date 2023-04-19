@@ -1,0 +1,15 @@
+git log
+git log --oneline
+git show commitid
+
+Link github repo to local repo: git remote add origin repo_url
+
+list remote repo's: git remote -v
+
+Local->github repo: git push origin master
+
+Git Ignore:
+Ignore entire dir => dir_name/
+ignore all log => log/".log
+       all ts  => dir_name/*.ts
+ 
